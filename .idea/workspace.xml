@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7b7f9cc-9205-4661-ac53-2ccdea4c340e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Album.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telran/album/dao/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telran/album/dao/AlbumImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telran/album/model/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telran/album/test/AlbumTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ofL0wfG0JLdffUnFzjpkLcQwcY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.AlbumTest.size.executor": "Run",
+    "JUnit.AlbumTest.testAddPhoto.executor": "Run",
+    "JUnit.AlbumTest.testGetAllPhotoFromAlbum.executor": "Run",
+    "JUnit.AlbumTest.testGetPhotoBetweenDate.executor": "Run",
+    "JUnit.AlbumTest.testGetPhotoFromAlbum.executor": "Run",
+    "JUnit.AlbumTest.testRemovePhoto.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/telran/Backend/09_Comparator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/User/telran/Backend/13_Album/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="telran.album.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AlbumTest.testGetPhotoBetweenDate">
+    <configuration name="AlbumTest.testAddPhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13_Album" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.album.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.album.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.album.test.AlbumTest" />
+      <option name="METHOD_NAME" value="testAddPhoto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumTest.testGetAllPhotoFromAlbum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13_Album" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.album.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.album.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.album.test.AlbumTest" />
+      <option name="METHOD_NAME" value="testGetAllPhotoFromAlbum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumTest.testGetPhotoBetweenDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13_Album" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.album.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.album.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.album.test.AlbumTest" />
+      <option name="METHOD_NAME" value="testGetPhotoBetweenDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumTest.testGetPhotoFromAlbum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13_Album" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.album.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.album.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.album.test.AlbumTest" />
+      <option name="METHOD_NAME" value="testGetPhotoFromAlbum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumTest.testRemovePhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13_Album" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.album.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.album.test" />
+      <option name="MAIN_CLASS_NAME" value="telran.album.test.AlbumTest" />
+      <option name="METHOD_NAME" value="testRemovePhoto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AlbumTest.testGetPhotoBetweenDate" />
+        <item itemvalue="JUnit.AlbumTest.testRemovePhoto" />
+        <item itemvalue="JUnit.AlbumTest.testGetAllPhotoFromAlbum" />
+        <item itemvalue="JUnit.AlbumTest.testGetPhotoFromAlbum" />
+        <item itemvalue="JUnit.AlbumTest.testAddPhoto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7b7f9cc-9205-4661-ac53-2ccdea4c340e" name="Changes" comment="" />
+      <created>1731255467379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731255467379</updated>
+      <workItem from="1731255468510" duration="2762000" />
+      <workItem from="1731258288317" duration="9260000" />
+      <workItem from="1731430469504" duration="10824000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
