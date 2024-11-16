@@ -4,6 +4,7 @@ import telran.album.model.Photo;
 
 import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.function.Predicate;
 
 public class AlbumImpl implements Album {
     private Photo[] photos;
@@ -67,35 +68,32 @@ public class AlbumImpl implements Album {
 
     @Override
     public Photo[] getAllPhotoFromAlbum(int albumId) {
-        Photo[] fromAlbum = new Photo[size];
-        int j = 0;
-        for (int i = 0; i < size; i++) {
-            if (photos[i].getAlbumId() == albumId) {
-                fromAlbum[j] = photos[i];
-                j++;
-            }
-        }
-        return Arrays.copyOf(fromAlbum, j);
+        Predicate<Photo> predicate = p -> p.getAlbumId() == albumId;
+
+        return findPhotoByPredicate(predicate);
     }
 
     @Override
     public Photo[] getPhotoBetweenDate(LocalDate dateFrom, LocalDate dateTo) {
-        Photo[] betweenDates = new Photo[size];
-        int j = 0;
+        Predicate<Photo> predicate = e -> e.getDate().toLocalDate().compareTo(dateFrom) >= 0 && e.getDate().toLocalDate().compareTo(dateTo) < 0;
 
-        for (int i = 0; i < size; i++) {
-            if (photos[i].getDate().toLocalDate().compareTo(dateFrom) >= 0 && photos[i].getDate().toLocalDate().compareTo(dateTo) < 0) {
-                betweenDates[j] = photos[i];
-                j++;
-            }
-        }
-
-        return Arrays.copyOf(betweenDates, j);
+        return findPhotoByPredicate(predicate);
     }
 
     @Override
     public int size() {
         //
         return size;
+    }
+
+    private Photo[] findPhotoByPredicate(Predicate<Photo> predicate) {
+        Photo[] res = new Photo[size];
+        int j = 0;
+        for (int i = 0; i < size; i++) {
+            if (predicate.test(photos[i])) {
+                res[j++] = photos[i];
+            }
+        }
+        return Arrays.copyOf(res, j);
     }
 }

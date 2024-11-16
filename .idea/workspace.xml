@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b7f9cc-9205-4661-ac53-2ccdea4c340e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Album.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/telran/album/dao/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/telran/album/dao/AlbumImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/telran/album/model/Photo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/telran/album/test/AlbumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telran/album/dao/AlbumImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telran/album/dao/AlbumImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +62,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/telran/Backend/09_Comparator",
+    "last_opened_file_path": "C:/Users/User/telran/Backend/company",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,7 +82,7 @@
       <recent name="telran.album.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AlbumTest.testGetPhotoBetweenDate">
+  <component name="RunManager" selected="JUnit.AlbumTest.testGetAllPhotoFromAlbum">
     <configuration name="AlbumTest.testAddPhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="13_Album" />
       <extension name="coverage">
@@ -173,9 +165,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlbumTest.testGetAllPhotoFromAlbum" />
         <item itemvalue="JUnit.AlbumTest.testGetPhotoBetweenDate" />
         <item itemvalue="JUnit.AlbumTest.testRemovePhoto" />
-        <item itemvalue="JUnit.AlbumTest.testGetAllPhotoFromAlbum" />
         <item itemvalue="JUnit.AlbumTest.testGetPhotoFromAlbum" />
         <item itemvalue="JUnit.AlbumTest.testAddPhoto" />
       </list>
@@ -200,6 +192,7 @@
       <workItem from="1731255468510" duration="2762000" />
       <workItem from="1731258288317" duration="9260000" />
       <workItem from="1731430469504" duration="10824000" />
+      <workItem from="1731731052558" duration="1040000" />
     </task>
     <servers />
   </component>
